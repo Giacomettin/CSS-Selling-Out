@@ -1,0 +1,6 @@
+#header div ul li {
+	display: inline;
+}
+#header div ul li a {
+	display: inline-block;
+}
