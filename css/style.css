@@ -165,11 +165,7 @@ p a:hover {
 	text-shadow: 0 1px #381120;
 	text-transform: uppercase;
 }
-#body div ul#featured li a.buythis:hover,
-#body ul li a.buythis:hover {
-	background: url(../images/icons.png) no-repeat 125px -18px;
-	color: #e16d99;
-}
+
 #body div ul#featured li h2 {
 	color: #fff;
 	font-size: 20px;
@@ -433,84 +429,7 @@ img {
 	vertical-align: middle;
 }
 
-/* Slideshow container */
-.slideshow-container {
-	text-align: center;
-	position: relative;
-	margin: auto;
-}
 
-/* Next & previous buttons */
-.prev,
-.next {
-	cursor: pointer;
-	top: 60%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 30px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	position: absolute;
-}
-
-.prev{
-	left: 150px;
-}
-
-
-
-/* Position the "next button" to the right */
-.next {
-	right: 150px;
-	border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-
-
-/* Fading animation */
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@keyframes fade {
-	from {
-		opacity: .4
-	}
-
-	to {
-		opacity: 1
-	}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-
-	.prev,
-	.next,
-	.text {
-		font-size: 11px
-	}
-}
 
 .human{
 	display: flex;
@@ -559,15 +478,8 @@ img {
     background-color: rgba(255, 255, 255, 0.2);
     z-index: -1;
 }
-.star1::after, .star2::after,.star3::after, .star4::after {
-    top: 5px;
-    left: 5px;
-    z-index: -2;
-}
-.star1 p, .star2 p, .star3 p, .star4 p {
-    margin: 0; 
-    padding: 0;
-}
+
+
 
 .star img{
 	width: 50px !important;
@@ -594,7 +506,6 @@ img {
 
 .imgprod img{
 	display: block;
-	vertical-align: middle;
 }
 .prodButton{
 	margin: 0;
@@ -603,9 +514,6 @@ img {
 .pricebutton{
 	display: flex;
 	align-items: center;}
-
-
-
 
 	#Photos{
 		display: flex;
